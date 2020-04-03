@@ -1,0 +1,107 @@
+body{
+    background: cadetblue;
+    overflow-x: hidden;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h1, h2, .form{
+width: 100%;
+padding: 10px 20px;
+text-align: center;
+}
+@media screen and (max-width: 480px){
+    .wrapper h1, h2, .form{
+        padding: 15px 10px;
+        margin: 0;
+        }   
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.form-div{
+    width: 100%;
+    padding: 10px 25px;
+    display: flex;
+    justify-content: center;
+}
+.form-div label{
+    font-size: 25px;
+    padding: 0 25px;
+}
+@media screen and (max-width: 480px){
+    .form{
+    padding: 5px;
+    }
+    .form-div{
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .form-div label{
+        width: 100%;
+        padding: 10px 0px;
+    }
+}
+.author, .title, .msg{
+    padding: 2px 5px;
+    font-size: 20px;
+    width: 35%;
+}
+@media screen and (max-width: 1500px){
+    .author, .title, .msg{
+        width: 50%;
+    }
+} 
+@media screen and (max-width: 800px){
+    .author, .title, .msg{
+        padding: 2px 5px;
+        font-size: 20px;
+        width: 70%;
+    }
+} 
+.msg{
+    height: 150px;
+}
+.btn-add{
+    padding: 8px 15px;
+    background: darkgray;
+    border: none;
+    font-size: 22px;
+    cursor: pointer;
+}
+.blog{
+    width: 100%;
+    padding: 20px;
+}
+.post{
+    width: 50%;
+    margin: 70px auto;
+    background: aliceblue;
+    padding: 10px;
+    position: relative;
+}
+@media screen and (max-width: 1024px){
+    .post{
+        width: 90%;
+    }
+} 
+.blog-post{
+padding: 10px 10px;
+font-size: 25px;
+}
+.btn-close{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    font-size: 20px;
+    background: rgb(214, 160, 43);
+    border: none;
+}
