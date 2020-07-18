@@ -1,4 +1,4 @@
-# Projects add post
+# Projects add posts
 Add posts
 
 ## Table of contents
